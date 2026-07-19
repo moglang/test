@@ -1,0 +1,2 @@
+fn assert(condition bool, message str) void { if (!condition) error(message) }
+fn equal(actual any, expected any, message str) void { if (actual != expected) error(message) }

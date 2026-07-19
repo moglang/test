@@ -1,0 +1,3 @@
+package test
+fn assert(condition bool, message str) void
+fn equal(actual any, expected any, message str) void
